@@ -1,0 +1,4 @@
+services:
+  specbee.specbeeservice
+  class: Drupal\specbee\services\specbee_service
+  arguments: ['@Datetime']

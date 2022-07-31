@@ -1,0 +1,9 @@
+<?php
+
+function specbee_theme($existing, $theme, $type, $path) {
+  return [
+    'my_template' => [
+	  'variables' => ['data' => NULL, 'form' => NULL],
+	];
+  ];
+}
